@@ -1,0 +1,12 @@
+### Ambil Semua Daftar Tugas via API
+GET http://localhost:8081/api/tugas
+Accept: application/json
+
+### Tambah Tugas Baru via API
+POST http://localhost:8081/api/tugas
+Content-Type: application/json
+
+{
+  "title": "Mengerjakan Tugas Pemrograman",
+  "description": "Menyelesaikan CRUD aplikasi web Spring Boot"
+}
